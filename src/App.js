@@ -81,10 +81,10 @@ const App = () => {
 
   return (
     <div className={`todo-app ${mode === 'light' ? 'light-mode' : 'dark-mode'}`}>
-      <div className='hero'>
+      <header className='hero'>
         <h1>Todo</h1>
         <Toggle toggleMode={toggleMode} mode={mode}/>
-      </div>
+      </header>
       <AddTodoForm addTodo={addTodo} mode={mode}/>
 
       <TodoList mode={mode}
