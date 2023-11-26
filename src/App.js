@@ -8,7 +8,7 @@ import Toggle from './components/ToggleModeButton';
 const App = () => {
   const [todos, setTodos] = useState([]);
   const [filter, setFilter] = useState('all');
-  const [mode, setMode] = useState('light');
+  const [mode, setMode] = useState('dark');
 
 
   useEffect(() => {

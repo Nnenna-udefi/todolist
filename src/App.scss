@@ -29,6 +29,8 @@ $hover-light-grayish-blue: hsl(236, 33%, 92%);
             text-transform: uppercase;
             color: $light-gray;
             padding: 5rem 0 5rem;
+            font-size: 2rem;
+            letter-spacing: 7px;
         }
     }
    
@@ -86,7 +88,7 @@ $hover-light-grayish-blue: hsl(236, 33%, 92%);
             font-family: 'Josefin Sans', sans-serif;
             font-size: 1rem;
             @media screen and (min-width:500px) {
-                width: 350px;
+                width: 450px;
             } 
         }
         .round {
@@ -159,7 +161,7 @@ $hover-light-grayish-blue: hsl(236, 33%, 92%);
             align-items: center;
         }
         @media screen and (min-width:500px) {
-            width: 350px;
+            width: 450px;
             img {
                 width: 10px;
             }
@@ -244,7 +246,7 @@ $hover-light-grayish-blue: hsl(236, 33%, 92%);
         justify-content: space-between;
         font-size: 12px;
         @media screen and (min-width:500px) {
-            width: 350px;
+            width: 450px;
         }
         &.light-mode {
             background-color: #fff;
