@@ -85,17 +85,19 @@ const App = () => {
         <h1>Todo</h1>
         <Toggle toggleMode={toggleMode} mode={mode}/>
       </header>
-      <AddTodoForm addTodo={addTodo} mode={mode}/>
+      <main>
+       <AddTodoForm addTodo={addTodo} mode={mode}/>
 
-      <TodoList mode={mode}
-        todos={filteredTodos}
-        completeToggle={completeToggle}
-        deleteTodo={deleteTodo}
-        updateDroppedTodo={updateDroppedTodo}
-      />
-      <FilterButton filter={filter} changeFilter={changeFilter} clearCompleted={clearCompleted}
-      todos={todos} mode={mode}/>
-     <p className='drag'>Drag and drop to reorder the list</p>
+        <TodoList mode={mode}
+          todos={filteredTodos}
+          completeToggle={completeToggle}
+          deleteTodo={deleteTodo}
+          updateDroppedTodo={updateDroppedTodo}
+        />
+        <FilterButton filter={filter} changeFilter={changeFilter} clearCompleted={clearCompleted}
+        todos={todos} mode={mode}/>
+        <p className='drag'>Drag and drop to reorder the list</p>
+      </main>
      <footer className="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel='noreferrer'>Frontend Mentor</a>. 
         Coded by <a href="https://github.com/Nnenna-udefi">Nnenna Udefi</a>.
