@@ -157,8 +157,8 @@ const App = () => {
       />
       <footer className="attribution">
         {/* Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel='noreferrer'>Frontend Mentor</a>.  */}
-        © 2023 <a href="https://github.com/Nnenna-udefi">Nnenna Udefi</a>. All
-        Rights Reserved
+        © 2023 <a href="https://github.com/Nnenna-udefi">NeDev</a>. All Rights
+        Reserved
       </footer>
     </div>
   );
