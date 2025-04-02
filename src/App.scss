@@ -11,7 +11,7 @@ $light-gray-blue: hsl(234, 39%, 85%);
 $hover-light-grayish-blue: hsl(236, 33%, 92%);
 
 .todo-app {
-  height: 100vh;
+  height: 100%;
   width: 100%;
 
   .drag {
@@ -100,6 +100,7 @@ $hover-light-grayish-blue: hsl(236, 33%, 92%);
     margin-bottom: 0;
     margin-top: 100px;
     background-color: black;
+    padding: 4rem 2rem;
 
     a {
       color: hsl(228, 45%, 44%);
