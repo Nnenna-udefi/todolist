@@ -15,7 +15,7 @@ const CompletedTodoPanel = ({ todos, isVisible, onClose }) => {
         {completedTodos.length ? (
           completedTodos.map((todo) => (
             <li key={todo.id}>
-              <p>{todo.text}</p>
+              <p className="completedText">{todo.text}</p>
               <small>
                 Completed at: {new Date(todo.completedAt).toLocaleString()}
               </small>

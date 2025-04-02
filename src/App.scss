@@ -100,7 +100,7 @@ $hover-light-grayish-blue: hsl(236, 33%, 92%);
     margin-bottom: 0;
     margin-top: 100px;
     background-color: black;
-    padding: 4rem 2rem;
+    padding: 2rem 1rem;
 
     a {
       color: hsl(228, 45%, 44%);
@@ -338,6 +338,12 @@ $hover-light-grayish-blue: hsl(236, 33%, 92%);
 
   &.visible {
     right: 0;
+  }
+  .completedText {
+    font-size: 14px;
+    @media screen and (min-width: 700px) {
+      font-size: 1rem;
+    }
   }
 
   .panel-header {
