@@ -12,10 +12,15 @@ $hover-light-grayish-blue: hsl(236, 33%, 92%);
 
 .todo-app {
   height: 100vh;
+  width: 100%;
+
   .drag {
     text-align: center;
     margin-top: 3rem;
-    font-size: 11px;
+    font-size: 14px;
+    @media screen and (min-width: 700px) {
+      font-size: 16px;
+    }
   }
 
   .hero {
@@ -76,6 +81,7 @@ $hover-light-grayish-blue: hsl(236, 33%, 92%);
     }
     .attribution {
       color: $light-gray;
+      bottom: 0;
     }
   }
   &.light-mode {
@@ -89,7 +95,7 @@ $hover-light-grayish-blue: hsl(236, 33%, 92%);
     }
   }
   .attribution {
-    font-size: 11px;
+    font-size: 16px;
     text-align: center;
     margin-bottom: 0;
     margin-top: 100px;
@@ -116,12 +122,16 @@ $hover-light-grayish-blue: hsl(236, 33%, 92%);
       font-size: 1rem;
       @media screen and (min-width: 500px) {
         width: 450px;
+        font-size: 1.5rem;
       }
     }
     .round {
       position: relative;
       top: 0.8rem;
       left: 1.7rem;
+      @media screen and (min-width: 700px) {
+        top: 1rem;
+      }
       label {
         border: 1px solid #ccc;
         border-radius: 50%;
@@ -269,9 +279,10 @@ $hover-light-grayish-blue: hsl(236, 33%, 92%);
     display: flex;
     align-content: center;
     justify-content: space-between;
-    font-size: 12px;
+    font-size: 14px;
     @media screen and (min-width: 500px) {
       width: 450px;
+      font-size: 1rem;
     }
     &.light-mode {
       background-color: #fff;
@@ -283,12 +294,15 @@ $hover-light-grayish-blue: hsl(236, 33%, 92%);
     }
 
     button {
-      font-size: 11px;
+      font-size: 14px;
       background: none;
       border: none;
       color: $dark-grayish-blue;
       margin-left: 0.3rem;
       font-family: "Josefin Sans", sans-serif;
+      @media screen and (min-width: 700px) {
+        font-size: 1rem;
+      }
       &:hover,
       &:active,
       &:focus {

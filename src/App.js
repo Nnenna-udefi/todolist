@@ -123,7 +123,7 @@ const App = () => {
       className={`todo-app ${mode === "light" ? "light-mode" : "dark-mode"}`}
     >
       <header className="hero">
-        <h1>Todo</h1>
+        <h1>Todoist</h1>
         <Toggle toggleMode={toggleMode} mode={mode} />
       </header>
       <main className="main">
@@ -155,10 +155,11 @@ const App = () => {
         isVisible={isPanelVisible}
         onClose={togglePanel}
       />
-      {/* <footer className="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel='noreferrer'>Frontend Mentor</a>. 
-        Coded by <a href="https://github.com/Nnenna-udefi">Nnenna Udefi</a>.
-      </footer> */}
+      <footer className="attribution">
+        {/* Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel='noreferrer'>Frontend Mentor</a>.  */}
+        © 2023 <a href="https://github.com/Nnenna-udefi">Nnenna Udefi</a>. All
+        Rights Reserved
+      </footer>
     </div>
   );
 };
